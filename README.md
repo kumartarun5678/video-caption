@@ -71,13 +71,13 @@ Create a `.env` file in the `backend` directory:
 ```env
 PORT=5000
 ASSEMBLYAI_API_KEY=your_assemblyai_api_key_here
-FRONTEND_URL=http://localhost:3000
+FRONTEND_URL=https://video-caption-gilt.vercel.app
 ```
 
 Create a `.env.local` file in the `website` directory:
 
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:5000/api
+NEXT_PUBLIC_API_URL=https://video-caption-0i4u.onrender.com/api
 ```
 
 ### 5. Install FFmpeg
@@ -107,7 +107,7 @@ npm run dev
 yarn dev
 ```
 
-The backend server will run on `http://localhost:5000`
+The backend server will run on `https://video-caption-0i4u.onrender.com`
 
 ### Start Frontend Development Server
 
@@ -118,7 +118,7 @@ npm run dev
 yarn dev
 ```
 
-The frontend will run on `http://localhost:3000`
+The frontend will run on `https://video-caption-gilt.vercel.app`
 
 ## 📁 Project Structure
 
@@ -222,7 +222,7 @@ video-caption-app/
 
 ```bash
 # Upload a test video and generate captions
-curl -X POST http://localhost:5000/api/video/upload \
+curl -X POST https://video-caption-0i4u.onrender.com/api/video/upload \
   -F "video=@test-video.mp4"
 ```
 

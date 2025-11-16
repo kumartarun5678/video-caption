@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "captionController.d.ts",
+    "sourceRoot": "",
+    "sources": [
+        "captionController.ts"
+    ],
+    "names": [],
+    "mappings": "AAQA,eAAO,MAAM,oBAAoB,GAC/B,KAAK,GAAG,EACR,KAAK,GAAG,EACR,MAAM,GAAG,KACR,OAAO,CAAC,IAAI,CAsBd,CAAC;AAEF,eAAO,MAAM,0BAA0B,GACrC,KAAK,GAAG,EACR,KAAK,GAAG,EACR,MAAM,GAAG,KACR,OAAO,CAAC,IAAI,CAsBd,CAAC;AAEF,eAAO,MAAM,wBAAwB,GACnC,KAAK,GAAG,EACR,KAAK,GAAG,EACR,MAAM,GAAG,KACR,OAAO,CAAC,IAAI,CAsBd,CAAC"
+}

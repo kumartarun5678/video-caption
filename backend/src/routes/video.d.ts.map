@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "video.d.ts",
+    "sourceRoot": "",
+    "sources": [
+        "video.ts"
+    ],
+    "names": [],
+    "mappings": "AASA,QAAA,MAAM,MAAM,4CAAmB,CAAC;AAMhC,eAAe,MAAM,CAAC"
+}

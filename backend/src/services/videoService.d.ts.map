@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "videoService.d.ts",
+    "sourceRoot": "",
+    "sources": [
+        "videoService.ts"
+    ],
+    "names": [],
+    "mappings": "AAIA,OAAO,KAAK,EAAE,SAAS,EAAE,aAAa,EAAE,MAAM,gCAAgC,CAAC;AAW/E,eAAO,MAAM,WAAW,GAAU,MAAM,OAAO,CAAC,MAAM,CAAC,IAAI,KAAG,OAAO,CAAC,SAAS,CA8B9E,CAAC;AAEF,eAAO,MAAM,gBAAgB,GAAI,UAAU,MAAM,KAAG,OAAO,CAAC,aAAa,CA6BxE,CAAC;AAEF,eAAO,MAAM,YAAY,GACvB,SAAS,MAAM,EACf,WAAW,OAAO,GAAG,WAAW,GAAG,SAAS,KAC3C,OAAO,CAAC,MAAM,CA0BhB,CAAC"
+}

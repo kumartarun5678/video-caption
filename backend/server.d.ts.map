@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "server.d.ts",
+    "sourceRoot": "",
+    "sources": [
+        "server.ts"
+    ],
+    "names": [],
+    "mappings": "AAuBA,QAAA,MAAM,GAAG,6CAAY,CAAC;AAkDtB,eAAe,GAAG,CAAC"
+}

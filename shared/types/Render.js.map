@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "Render.js",
+    "sourceRoot": "",
+    "sources": [
+        "Render.ts"
+    ],
+    "names": [],
+    "mappings": ""
+}

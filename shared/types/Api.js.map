@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "Api.js",
+    "sourceRoot": "",
+    "sources": [
+        "Api.ts"
+    ],
+    "names": [],
+    "mappings": ""
+}

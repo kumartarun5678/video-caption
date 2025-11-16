@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "renderController.d.ts",
+    "sourceRoot": "",
+    "sources": [
+        "renderController.ts"
+    ],
+    "names": [],
+    "mappings": "AAOA,eAAO,MAAM,qBAAqB,GAChC,KAAK,GAAG,EACR,KAAK,GAAG,EACR,MAAM,GAAG,KACR,OAAO,CAAC,IAAI,CA2Bd,CAAC;AAEF,eAAO,MAAM,yBAAyB,GACpC,KAAK,GAAG,EACR,KAAK,GAAG,EACR,MAAM,GAAG,KACR,OAAO,CAAC,IAAI,CAad,CAAC;AAEF,eAAO,MAAM,uBAAuB,GAClC,KAAK,GAAG,EACR,KAAK,GAAG,EACR,MAAM,GAAG,KACR,OAAO,CAAC,IAAI,CAgBd,CAAC"
+}

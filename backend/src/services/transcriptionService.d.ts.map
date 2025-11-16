@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "transcriptionService.d.ts",
+    "sourceRoot": "",
+    "sources": [
+        "transcriptionService.ts"
+    ],
+    "names": [],
+    "mappings": "AAGA,OAAO,KAAK,EAAE,OAAO,EAAE,mBAAmB,EAAE,MAAM,kCAAkC,CAAC;AAQrF,eAAO,MAAM,eAAe,GAC1B,SAAS,MAAM,EACf,WAAU,MAAe,KACxB,OAAO,CAAC,mBAAmB,CAiC7B,CAAC;AAEF,eAAO,MAAM,gBAAgB,GAC3B,SAAS,MAAM,EACf,eAAe,mBAAmB,EAClC,QAAO,MAAmB,KACzB,OAAO,CAAC,OAAO,EAAE,CASnB,CAAC;AAEF,eAAO,MAAM,cAAc,GACzB,SAAS,MAAM,EACf,UAAU,OAAO,EAAE,KAClB,OAAO,CAAC,OAAO,EAAE,CAInB,CAAC"
+}

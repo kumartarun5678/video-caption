@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "validation.d.ts",
+    "sourceRoot": "",
+    "sources": [
+        "validation.ts"
+    ],
+    "names": [],
+    "mappings": "AAAA,eAAO,MAAM,mBAAmB,GAC9B,KAAK,GAAG,EACR,KAAK,GAAG,EACR,MAAM,GAAG,KACR,IAmBF,CAAC;AAEF,eAAO,MAAM,wBAAwB,GACnC,KAAK,GAAG,EACR,KAAK,GAAG,EACR,MAAM,GAAG,KACR,IAoBF,CAAC;AAEF,eAAO,MAAM,iBAAiB,GAC5B,KAAK,GAAG,EACR,KAAK,GAAG,EACR,MAAM,GAAG,KACR,IA4BF,CAAC"
+}

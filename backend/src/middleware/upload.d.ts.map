@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "upload.d.ts",
+    "sourceRoot": "",
+    "sources": [
+        "upload.ts"
+    ],
+    "names": [],
+    "mappings": "AAAA,OAAO,MAAM,MAAM,QAAQ,CAAC;AAmB5B,eAAO,MAAM,MAAM,eAajB,CAAC;AAEH,eAAO,MAAM,YAAY,EAAE,GAA4B,CAAC;AACxD,eAAO,MAAM,cAAc,EAAE,GAA+B,CAAC"
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "fileHandler.d.ts",
+    "sourceRoot": "",
+    "sources": [
+        "fileHandler.ts"
+    ],
+    "names": [],
+    "mappings": "AAGA,eAAO,MAAM,qBAAqB,GAAU,SAAS,MAAM,KAAG,OAAO,CAAC,IAAI,CAMzE,CAAC;AAEF,eAAO,MAAM,UAAU,GAAU,UAAU,MAAM,KAAG,OAAO,CAAC,OAAO,CAOlE,CAAC;AAEF,eAAO,MAAM,WAAW,GAAU,UAAU,MAAM,KAAG,OAAO,CAAC,MAAM,CAOlE,CAAC;AAEF,eAAO,MAAM,eAAe,GAC1B,WAAW,MAAM,EACjB,cAAa,MAAW,KACvB,OAAO,CAAC,IAAI,CAkBd,CAAC"
+}

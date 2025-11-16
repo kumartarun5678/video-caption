@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "Caption.js",
+    "sourceRoot": "",
+    "sources": [
+        "Caption.ts"
+    ],
+    "names": [],
+    "mappings": ""
+}

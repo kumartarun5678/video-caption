@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "notFound.d.ts",
+    "sourceRoot": "",
+    "sources": [
+        "notFound.ts"
+    ],
+    "names": [],
+    "mappings": "AAAA,OAAO,EAAE,QAAQ,IAAI,eAAe,EAAE,MAAM,mBAAmB,CAAC;AAEhE,OAAO,EAAE,eAAe,IAAI,QAAQ,EAAE,CAAC"
+}

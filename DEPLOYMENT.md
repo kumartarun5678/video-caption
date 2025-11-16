@@ -53,9 +53,12 @@ Click "Deploy" and wait for the build to complete.
 4. Configure:
    - **Name**: video-caption-backend
    - **Environment**: Node
-   - **Build Command**: `cd backend && npm install && npm run build`
-   - **Start Command**: `cd backend && npm start`
-   - **Root Directory**: `backend`
+   - **Root Directory**: `backend` (IMPORTANT: Set this first!)
+   - **Build Command**: `yarn install && yarn build`
+   - **Start Command**: `node dist/server.js`
+   - **Auto-Deploy**: Yes (optional)
+
+**Note**: If you're using `render.yaml`, Render will automatically use those settings. Otherwise, make sure to set the Root Directory to `backend` in the dashboard settings.
 
 ### Step 3: Set Environment Variables
 

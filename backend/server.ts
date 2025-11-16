@@ -67,8 +67,8 @@ app.use(helmet({
   contentSecurityPolicy: {
     directives: {
       defaultSrc: ["'self'"],
-      mediaSrc: ["'self'", "http://localhost:8000", "http://localhost:3000"],
-      imgSrc: ["'self'", "data:", "http://localhost:8000"],
+      mediaSrc: ["'self'", "https://video-caption-0i4u.onrender.com", "https://video-caption-gilt.vercel.app"],
+      imgSrc: ["'self'", "data:", "https://video-caption-0i4u.onrender.com"],
       scriptSrc: ["'self'", "'unsafe-inline'", "'unsafe-eval'"],
       styleSrc: ["'self'", "'unsafe-inline'"],
     },

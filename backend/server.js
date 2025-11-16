@@ -27,7 +27,7 @@ const limiter = rateLimit({
 app.use(helmet());
 app.use(limiter);
 app.use(cors({
-    origin: "*"|| 'http://localhost:3000',
+    origin: "*"|| 'https://video-caption-gilt.vercel.app',
     credentials: true,
 }));
 app.use(express.json({ limit: '50mb' }));

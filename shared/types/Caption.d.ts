@@ -62,3 +62,4 @@ export interface CaptionUpdateResponse extends ApiResponse {
         updatedAt: Date;
     };
 }
+//# sourceMappingURL=Caption.d.ts.map

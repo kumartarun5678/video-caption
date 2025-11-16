@@ -48,3 +48,4 @@ export interface RenderDownloadResponse extends ApiResponse {
         fileSize: number;
     };
 }
+//# sourceMappingURL=Render.d.ts.map

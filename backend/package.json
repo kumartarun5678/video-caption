@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "nodemon",
     "dev:clean": "./kill-port.sh && sleep 1 && nodemon",
-    "build": "tsc",
+    "build": "tsc && (test -f dist/backend/server.js && mv dist/backend/* dist/ && rm -rf dist/backend dist/shared || true)",
+    "build:clean": "rm -rf dist && yarn build",
     "start": "node dist/server.js",
     "start:build": "yarn build && node dist/server.js",
     "test": "jest",

@@ -36,3 +36,4 @@ export interface StatusResponse {
     message?: string;
     estimatedTimeRemaining?: number;
 }
+//# sourceMappingURL=Api.d.ts.map

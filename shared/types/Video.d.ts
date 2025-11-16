@@ -41,3 +41,4 @@ export interface VideoListResponse extends ApiResponse {
         total: number;
     };
 }
+//# sourceMappingURL=Video.d.ts.map

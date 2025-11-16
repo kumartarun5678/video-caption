@@ -28,8 +28,11 @@
     "helmet": "^7.0.0",
     "mime-types": "^2.1.35",
     "multer": "^2.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "remotion": "^4.0.375",
     "uuid": "^9.0.0",
+    "nodemon": "^3.0.1",
     "ws": "^8.13.0"
   },
   "devDependencies": {
@@ -39,6 +42,8 @@
     "@types/mime-types": "^2.1.1",
     "@types/multer": "^2.0.0",
     "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
     "@types/uuid": "^9.0.2",
     "@types/ws": "^8.5.5",
     "nodemon": "^3.0.1",

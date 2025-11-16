@@ -3,6 +3,7 @@ services:
     name: video-caption-backend
     env: node
     plan: starter
+    rootDir: backend
     buildCommand: yarn install && yarn build
     startCommand: node dist/server.js
     envVars:

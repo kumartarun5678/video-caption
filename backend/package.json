@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "nodemon",
     "dev:clean": "./kill-port.sh && sleep 1 && nodemon",
-    "build": "tsc && (test -f dist/backend/server.js && mv dist/backend/* dist/ && rm -rf dist/backend dist/shared || true)",
+    "prebuild": "echo 'Starting TypeScript compilation...'",
+    "build": "tsc && (test -f dist/backend/server.js && mv dist/backend/* dist/ && rm -rf dist/backend dist/shared || true) && (test -f dist/server.js && echo '✓ Build successful: dist/server.js exists' || (echo '✗ ERROR: dist/server.js not found after build!' && exit 1))",
+    "postinstall": "echo 'Dependencies installed. Run yarn build to compile TypeScript.'",
     "build:clean": "rm -rf dist && yarn build",
     "start": "node dist/server.js",
     "start:build": "yarn build && node dist/server.js",

@@ -11,7 +11,7 @@ import axios from 'axios';
 import type { Caption } from '@/types/captions';
 import type { AxiosProgressEvent } from 'axios';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5001/api';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api';
 
 export default function Home() {
   const [videoId, setVideoId] = useState<string | null>(null);

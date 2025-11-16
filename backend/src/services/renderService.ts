@@ -111,7 +111,7 @@ const renderWithRemotion = async (
     });
 
     const videoFileName = path.basename(videoPath);
-    const backendPort = process.env.PORT || 5001;
+    const backendPort = process.env.PORT || 8000;
     const backendUrl = process.env.BACKEND_URL || `http://localhost:${backendPort}`;
     const videoUrl = `${backendUrl}/uploads/${videoFileName}`;
 

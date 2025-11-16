@@ -17,7 +17,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 8000;
 
 const isProduction = __dirname.includes('dist');
 const BASE_DIR = isProduction ? path.join(__dirname, '..') : __dirname;
@@ -67,8 +67,8 @@ app.use(helmet({
   contentSecurityPolicy: {
     directives: {
       defaultSrc: ["'self'"],
-      mediaSrc: ["'self'", "http://localhost:5001", "http://localhost:3000"],
-      imgSrc: ["'self'", "data:", "http://localhost:5001"],
+      mediaSrc: ["'self'", "http://localhost:8000", "http://localhost:3000"],
+      imgSrc: ["'self'", "data:", "http://localhost:8000"],
       scriptSrc: ["'self'", "'unsafe-inline'", "'unsafe-eval'"],
       styleSrc: ["'self'", "'unsafe-inline'"],
     },
@@ -134,7 +134,7 @@ const server = app.listen(PORT, () => {
 server.on('error', (err: NodeJS.ErrnoException) => {
   if (err.code === 'EADDRINUSE') {
     console.error(`Port ${PORT} is already in use.`);
-    console.error(`Try: Set PORT environment variable to a different port (e.g., PORT=5001)`);
+    console.error(`Try: Set PORT environment variable to a different port (e.g., PORT=8000)`);
     console.error(`Or run: ./kill-port.sh`);
     process.exit(1);
   } else {
